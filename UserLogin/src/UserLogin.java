@@ -1,4 +1,4 @@
-import java.awt.*;
+import java.awt.*; 
 import java.sql.*;
 import java.awt.event.ActionEvent;
 import java.sql.Connection;
@@ -6,14 +6,12 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
 
-
-
 import javax.swing.*;
 import java.awt.event.*;
 public class UserLogin extends JFrame implements ActionListener {
 
-private static final long serialVersionUID = 1L;
-
+private static final long serialVersionUID = 1L; // We wont need to make class object of userlogin, final to make it constant
+						//universelVersion Identifier, 1L is serilization number
 JFrame frame = new JFrame();
 Panel panel = new Panel();
 Font font = new Font("Courier",Font.BOLD,15);
